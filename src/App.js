@@ -35,13 +35,13 @@ cadastrar(event){
              /><br />
             <label>email:</label>
             <input 
-            type='text'
+            type='email'
             value={this.state.email}
             onChange={ (e) => this.setState({ email: e.target.value })}
             /><br />
             <label>Senha:</label>
             <input 
-            type='text'
+            type='password'
             value={this.state.senha}
             onChange={ (e) => this.setState({ senha: e.target.value })}
             /><br />
